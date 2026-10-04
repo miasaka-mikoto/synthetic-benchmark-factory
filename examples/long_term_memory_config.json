@@ -1,0 +1,42 @@
+{
+  "name": "Long-Term Memory Benchmark",
+  "capability": "long-term-memory",
+  "description": "Retrieve stable facts after time gaps, distractors, and conflicts.",
+  "difficulty": {
+    "levels": [1, 2, 3, 4, 5],
+    "parameters": {
+      "context_length": [320, 640, 1280, 2560, 4096],
+      "distractor_count": [0, 2, 5, 10, 20],
+      "number_of_facts": [1, 2, 4, 8, 12],
+      "conflicting_facts": [0, 0, 1, 2, 3],
+      "time_distance": [0, 1, 7, 30, 180]
+    }
+  },
+  "task_type": "Memory",
+  "input_schema": {
+    "type": "object",
+    "required": ["context", "question"],
+    "properties": {
+      "context": {"type": "string"},
+      "question": {"type": "string"}
+    }
+  },
+  "expected_output": {"type": "string"},
+  "scoring": ["exact_match", "f1", "pass_fail"],
+  "constraints": {
+    "ground_truth_required": true,
+    "synthetic_only": true,
+    "no_paid_provider": true
+  },
+  "generator": {
+    "name": "long_term_memory",
+    "version": "1.0.0",
+    "seed": 20261004
+  },
+  "split_ratios": {
+    "train": 0.7,
+    "validation": 0.1,
+    "test": 0.15,
+    "challenge": 0.05
+  }
+}
