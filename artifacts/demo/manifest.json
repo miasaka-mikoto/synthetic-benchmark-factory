@@ -1,0 +1,11 @@
+{
+  "benchmark_version": "long-term-memory-demo-v1",
+  "config": {
+    "benchmark_type": "Memory",
+    "count": 500,
+    "data_origin": "Synthetic"
+  },
+  "dataset_hash": "sha256:939b13bc0f18623c30da5016969fd2e4eaedaddd3aedb1079610150dbf7e24fb",
+  "generator_version": "1.0.0",
+  "seed": 20261004
+}

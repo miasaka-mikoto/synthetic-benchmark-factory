@@ -1,0 +1,68 @@
+{
+  "manifest": {
+    "benchmark_version": "long-term-memory-demo-v1",
+    "config": {
+      "benchmark_type": "Memory",
+      "count": 500,
+      "data_origin": "Synthetic"
+    },
+    "dataset_hash": "sha256:939b13bc0f18623c30da5016969fd2e4eaedaddd3aedb1079610150dbf7e24fb",
+    "generator_version": "1.0.0",
+    "seed": 20261004
+  },
+  "statistics": {
+    "answer_length": {
+      "max": 65,
+      "mean": 64.154,
+      "min": 63,
+      "p50": 64
+    },
+    "case_count": 500,
+    "context_length": {
+      "max": 1999,
+      "mean": 759.692,
+      "min": 105,
+      "p50": 530
+    },
+    "difficulty_distribution": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100
+    },
+    "duplicate_rate": 0.0,
+    "split_distribution": {
+      "challenge": 25,
+      "test": 50,
+      "train": 350,
+      "validation": 75
+    },
+    "type_distribution": {
+      "memory": 500
+    },
+    "validation_failure_rate": 0.0
+  },
+  "validation": {
+    "ambiguous_count": 0,
+    "checked_cases": 500,
+    "duplicate_count": 0,
+    "errors": [],
+    "impossible_count": 0,
+    "invalid_cases": 0,
+    "issues": [],
+    "leakage_count": 0,
+    "metrics": {
+      "ambiguous_rate": 0.0,
+      "case_count": 500,
+      "data_leakage_rate": 0.0,
+      "duplicate_rate": 0.0,
+      "impossible_rate": 0.0,
+      "valid_case_count": 500,
+      "validation_failure_rate": 0.0
+    },
+    "valid": true,
+    "warning_cases": 0,
+    "warnings": []
+  }
+}
