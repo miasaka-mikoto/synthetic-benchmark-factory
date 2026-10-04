@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#101729"/><stop offset="1" stop-color="#17253e"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#7c5cff"/><stop offset="1" stop-color="#30c9f7"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000" flood-opacity=".25"/></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1600" height="78" fill="#0d1424"/>
+  <rect x="0" y="77" width="268" height="923" fill="#121c30"/>
+  <rect x="0" y="77" width="268" height="3" fill="url(#accent)"/>
+  <text x="34" y="43" fill="#f7f9ff" font-family="DejaVu Sans" font-size="26" font-weight="700">Synthetic Benchmark Factory</text>
+  <text x="34" y="65" fill="#8fa4c5" font-family="DejaVu Sans" font-size="13">AI 基准测试数据集工厂 · Offline / Synthetic</text>
+  <rect x="1294" y="21" width="260" height="36" rx="18" fill="#17364a"/>
+  <circle cx="1317" cy="39" r="6" fill="#48db8c"/>
+  <text x="1331" y="44" fill="#b9e9d1" font-family="DejaVu Sans" font-size="14">No paid API · Ready</text>
+
+  <text x="29" y="123" fill="#7188ab" font-family="DejaVu Sans" font-size="12" font-weight="700">WORKSPACE</text>
+  <g font-family="DejaVu Sans" font-size="16">
+    <rect x="18" y="143" width="232" height="45" rx="10" fill="#263c60"/>
+    <text x="42" y="172" fill="#ffffff">▣  Benchmark Editor</text>
+    <text x="42" y="222" fill="#b6c6de">✦  Generator</text>
+    <text x="42" y="272" fill="#b6c6de">⌕  Case Browser</text>
+    <text x="42" y="322" fill="#b6c6de">▥  Statistics</text>
+    <text x="42" y="372" fill="#b6c6de">▶  Runner</text>
+    <text x="42" y="422" fill="#b6c6de">↥  Export &amp; Reports</text>
+  </g>
+  <rect x="18" y="855" width="232" height="112" rx="12" fill="#17253c"/>
+  <text x="35" y="887" fill="#9db1cf" font-family="DejaVu Sans" font-size="12">ACTIVE DATASET</text>
+  <text x="35" y="916" fill="#f7f9ff" font-family="DejaVu Sans" font-size="15" font-weight="700">Long-Term Memory</text>
+  <text x="35" y="940" fill="#7ed8ff" font-family="DejaVu Sans" font-size="13">500 validated synthetic cases</text>
+
+  <text x="310" y="125" fill="#f8fbff" font-family="DejaVu Sans" font-size="30" font-weight="700">Long-Term Memory Benchmark</text>
+  <text x="310" y="152" fill="#91a7c9" font-family="DejaVu Sans" font-size="15">Generate · validate · inspect · run local baselines · export reproducibly</text>
+  <g filter="url(#shadow)">
+    <rect x="310" y="183" width="242" height="108" rx="14" fill="#1d2d49"/>
+    <rect x="571" y="183" width="242" height="108" rx="14" fill="#1d2d49"/>
+    <rect x="832" y="183" width="242" height="108" rx="14" fill="#1d2d49"/>
+    <rect x="1093" y="183" width="461" height="108" rx="14" fill="#1d2d49"/>
+  </g>
+  <text x="334" y="217" fill="#8ca5ca" font-family="DejaVu Sans" font-size="13">CASE COUNT</text>
+  <text x="334" y="261" fill="#ffffff" font-family="DejaVu Sans" font-size="38" font-weight="700">500</text>
+  <text x="595" y="217" fill="#8ca5ca" font-family="DejaVu Sans" font-size="13">VALIDATION</text>
+  <text x="595" y="261" fill="#52dfa0" font-family="DejaVu Sans" font-size="31" font-weight="700">PASS</text>
+  <text x="856" y="217" fill="#8ca5ca" font-family="DejaVu Sans" font-size="13">DIFFICULTY</text>
+  <text x="856" y="261" fill="#ffffff" font-family="DejaVu Sans" font-size="30" font-weight="700">1 — 5</text>
+  <text x="1117" y="217" fill="#8ca5ca" font-family="DejaVu Sans" font-size="13">DATASET HASH</text>
+  <text x="1117" y="252" fill="#7ed8ff" font-family="DejaVu Sans Mono" font-size="15">sha256:939b13bc0f18623c…</text>
+  <text x="1117" y="273" fill="#7f96b8" font-family="DejaVu Sans" font-size="12">Seed 20261004 · generator 1.0.0</text>
+
+  <rect x="310" y="318" width="1244" height="70" rx="14" fill="#17253c"/>
+  <g font-family="DejaVu Sans" font-size="15">
+    <rect x="331" y="335" width="133" height="37" rx="9" fill="#2c4771"/>
+    <text x="356" y="359" fill="#fff">All Cases</text>
+    <text x="497" y="359" fill="#b9c9e0">Train 350</text>
+    <text x="625" y="359" fill="#b9c9e0">Validation 75</text>
+    <text x="779" y="359" fill="#b9c9e0">Test 50</text>
+    <text x="886" y="359" fill="#b9c9e0">Challenge 25</text>
+    <rect x="1193" y="334" width="329" height="38" rx="9" fill="#0f1a2c" stroke="#405879"/>
+    <text x="1212" y="359" fill="#7f96b8">Filter type, relation, or case ID…</text>
+  </g>
+
+  <rect x="310" y="414" width="842" height="520" rx="16" fill="#17253c" filter="url(#shadow)"/>
+  <text x="338" y="452" fill="#f7f9ff" font-family="DejaVu Sans" font-size="20" font-weight="700">Case Browser</text>
+  <text x="338" y="476" fill="#91a7c9" font-family="DejaVu Sans" font-size="13">Prompt · context · expected answer · difficulty · generator · validation · model outputs</text>
+  <rect x="336" y="500" width="790" height="42" rx="7" fill="#0f1a2c"/>
+  <g fill="#8fa5c7" font-family="DejaVu Sans" font-size="12" font-weight="700">
+    <text x="352" y="526">CASE ID</text><text x="510" y="526">SPLIT</text><text x="620" y="526">LEVEL</text><text x="712" y="526">CONTEXT</text><text x="977" y="526">STATUS</text>
+  </g>
+  <g font-family="DejaVu Sans" font-size="14">
+    <g><rect x="336" y="550" width="790" height="57" fill="#1d2d49"/><text x="352" y="584" fill="#f3f6fc">MEMO-00001-d8a6d3</text><text x="510" y="584" fill="#afc2df">Train</text><text x="628" y="584" fill="#d8c6ff">Level 1</text><text x="712" y="584" fill="#afc2df">105 chars · 2 facts · 0 distractors</text><text x="977" y="584" fill="#50dfa0">● Valid</text></g>
+    <g><rect x="336" y="608" width="790" height="57" fill="#182840"/><text x="352" y="642" fill="#f3f6fc">MEMO-00002-a556a4</text><text x="510" y="642" fill="#afc2df">Train</text><text x="628" y="642" fill="#d8c6ff">Level 2</text><text x="712" y="642" fill="#afc2df">219 chars · 3 facts · 1 distractor</text><text x="977" y="642" fill="#50dfa0">● Valid</text></g>
+    <g><rect x="336" y="666" width="790" height="57" fill="#1d2d49"/><text x="352" y="700" fill="#f3f6fc">MEMO-00003-827983</text><text x="510" y="700" fill="#afc2df">Train</text><text x="628" y="700" fill="#d8c6ff">Level 3</text><text x="712" y="700" fill="#afc2df">530 chars · conflicts + near match</text><text x="977" y="700" fill="#50dfa0">● Valid</text></g>
+    <g><rect x="336" y="724" width="790" height="57" fill="#182840"/><text x="352" y="758" fill="#f3f6fc">MEMO-00004-b3defb</text><text x="510" y="758" fill="#afc2df">Test</text><text x="628" y="758" fill="#d8c6ff">Level 4</text><text x="712" y="758" fill="#afc2df">822 chars · 7 facts · 6 distractors</text><text x="977" y="758" fill="#50dfa0">● Valid</text></g>
+    <g><rect x="336" y="782" width="790" height="57" fill="#1d2d49"/><text x="352" y="816" fill="#f3f6fc">MEMO-00005-c3378b</text><text x="510" y="816" fill="#afc2df">Challenge</text><text x="628" y="816" fill="#d8c6ff">Level 5</text><text x="712" y="816" fill="#afc2df">1999 chars · long context + conflicts</text><text x="977" y="816" fill="#50dfa0">● Valid</text></g>
+  </g>
+  <rect x="336" y="861" width="790" height="48" rx="8" fill="#0f1a2c"/>
+  <text x="359" y="891" fill="#7ed8ff" font-family="DejaVu Sans" font-size="14">Open selected case  →  inspect full prompt, expected JSON and provider output</text>
+
+  <rect x="1178" y="414" width="376" height="520" rx="16" fill="#17253c" filter="url(#shadow)"/>
+  <text x="1206" y="452" fill="#f7f9ff" font-family="DejaVu Sans" font-size="20" font-weight="700">Quality &amp; Item Analysis</text>
+  <text x="1206" y="479" fill="#8fa5c7" font-family="DejaVu Sans" font-size="13">Formal benchmark gate</text>
+  <g font-family="DejaVu Sans" font-size="14"><text x="1208" y="524" fill="#b9c9e0">Duplicate case rate</text><text x="1498" y="524" fill="#50dfa0" text-anchor="end">0.00%</text><text x="1208" y="562" fill="#b9c9e0">Validation failures</text><text x="1498" y="562" fill="#50dfa0" text-anchor="end">0 / 500</text><text x="1208" y="600" fill="#b9c9e0">Cross-split leakage</text><text x="1498" y="600" fill="#50dfa0" text-anchor="end">0</text><text x="1208" y="638" fill="#b9c9e0">Ambiguous / impossible</text><text x="1498" y="638" fill="#50dfa0" text-anchor="end">0 / 0</text></g>
+  <line x1="1206" y1="666" x2="1525" y2="666" stroke="#334b6e"/>
+  <text x="1206" y="700" fill="#f7f9ff" font-family="DejaVu Sans" font-size="16" font-weight="700">Local providers</text>
+  <text x="1208" y="733" fill="#b9c9e0" font-family="DejaVu Sans" font-size="14">MockModel</text><text x="1498" y="733" fill="#f7a8bc" font-family="DejaVu Sans" font-size="14" text-anchor="end">Synthetic · 0.00</text>
+  <text x="1208" y="766" fill="#b9c9e0" font-family="DejaVu Sans" font-size="14">RuleModel</text><text x="1498" y="766" fill="#7ed8ff" font-family="DejaVu Sans" font-size="14" text-anchor="end">Synthetic · 1.00</text>
+  <text x="1208" y="814" fill="#8fa5c7" font-family="DejaVu Sans" font-size="12">Model results never replace ground truth.</text>
+  <rect x="1206" y="845" width="319" height="46" rx="9" fill="url(#accent)"/>
+  <text x="1365" y="874" fill="#fff" font-family="DejaVu Sans" font-size="15" font-weight="700" text-anchor="middle">Export JSONL · CSV · JSON · Markdown</text>
+  <text x="310" y="973" fill="#8195b5" font-family="DejaVu Sans" font-size="12">Preview generated from the implemented desktop layout · validation data from the 500-case offline acceptance run</text>
+</svg>
