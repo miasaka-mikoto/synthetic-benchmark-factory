@@ -1,0 +1,4 @@
+# Synthetic Benchmark Factory has no required third-party runtime dependencies.
+# The desktop application uses Python's standard-library tkinter module.
+#
+# Optional packaging/development dependencies are listed in requirements-dev.txt.

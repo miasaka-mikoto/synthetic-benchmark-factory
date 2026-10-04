@@ -1,0 +1,4 @@
+# Optional, only needed to produce a native Windows executable.
+pyinstaller>=6.0,<7
+# Optional test runner. The repository's smoke test itself uses unittest only.
+pytest>=8.0,<10

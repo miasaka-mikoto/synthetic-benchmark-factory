@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.spec.bak
+*.zip
+*.tar.gz
+
+# Generated outputs: keep only the checked-in reference demo and preview.
+artifacts/*
+!artifacts/README.md
+!artifacts/ui_preview.png
+!artifacts/ui_preview.svg
+!artifacts/demo/
+!artifacts/demo/**
+
+# Local editor / OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
